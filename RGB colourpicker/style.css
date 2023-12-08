@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: gray;
+}
+
+input[type="range"]{
+    display: inline-block;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 25px;
+    accent-color: black;
+
+  } 
+.values{
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+    width: 35%;
+    background-color: rgb(199, 240, 52);
+    border-radius: 15px;
+    color: black;
+  
+}
+.value-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:990px){
+  .container{
+    font-size: 15px;
+    width: 50%;
+  }
+  .values{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:710px){
+  .container{
+    font-size: 15px;
+    width: 60%;
+  }
+  .values{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:550px){
+  .container{
+    font-size: 13px;
+    width: 70%;
+  }
+  .values{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:332px){
+  .container{
+    font-size: 12px;
+    width: 80%;
+  }
+  .values{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:280px){
+  .container{
+    width: 93%;
+  }}
